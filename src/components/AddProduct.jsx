@@ -21,23 +21,22 @@ const AddProduct = () => {
         <label htmlFor="" className="form-label">Description</label>
         <textarea name="" id="" className="form-control"></textarea>
     </div>
-    <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+    <div className="col col-12 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
         <label htmlFor="" className="form-label">Category</label>
         <select className="form-contro">
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
+        <option value="Choose">Choose</option>
+            <option value="Men's Clothing">Men's Clothing</option>
+            <option value="Women's Clothing">Women's Clothing</option>
+            <option value="Jewelery">Jewelery</option>
+            <option value="Electronics">Electronics</option>
         </select>
     </div>
-    <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+    <div className="col col-12 col-sm-9 col-md-9 col-lg-9 col-xl-9 col-xxl-9">
         <label htmlFor="" className="form-label">Prize</label>
         <input type="text" className="form-control" />
     </div>
     <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-        <button className="btn btn-primary">Submit</button>
+        <button className="btn btn-info">Submit</button>
     </div>
 </div>
 
