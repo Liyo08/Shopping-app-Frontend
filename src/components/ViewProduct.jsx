@@ -1,8 +1,10 @@
 import React from 'react'
+import ProductNavbar from './ProductNavbar'
 
 const ViewProduct = () => {
   return (
     <div>
+      <ProductNavbar/>
 
 
 <table class="table">
